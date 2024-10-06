@@ -40,6 +40,30 @@ a.home-color {
 }
 
 
+.header-part-2-box {
+    width: auto;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-part-about-text {
+    width: 1024px;
+    margin: auto;
+    color: white;
+    font-size: 27px;
+    padding-top: 38px;
+}
+
+
+.header-part-2-box {
+    background-image: url('images/bg-dark-desktop.jpg');
+    max-width: 100%;
+}
+
+
 .main-part {
     width: auto;
     height: 364px;
@@ -186,6 +210,10 @@ a.home-color {
 }
 
 
+.date {
+    margin-bottom: 10px;
+}
+
 .past-speakers-box-1 {
     width: 22%;
     border-bottom: 4px solid #7897;
@@ -193,17 +221,17 @@ a.home-color {
 
 .past-speakers-box-2 {
     width: 22%;
-    border-bottom: 4px solid #7897;
+    border-bottom: 4px solid yellowgreen;
 }
 
 .past-speakers-box-3 {
     width: 22%;
-    border-bottom: 4px solid #7897;
+    border-bottom: 4px solid salmon;
 }
 
 .past-speakers-box-4 {
     width: 22%;
-    border-bottom: 4px solid #7897;
+    border-bottom: 4px solid green;
 }
 
 .past-speakers-box-1 img {
@@ -379,23 +407,83 @@ img {}
 }
 
 .speakers-background-box {
-    background: radial-gradient(black, transparent);
+    background: deepskyblue;
 }
 
 .speakers-text p {
     margin-bottom: 20px;
 }
 
-.about-part {
-    width: 1024px;
-    height: 400px;
-    font-size: 60px;
-    margin: auto;
-    text-align: center;
+
+.speakers-background-box:nth-child(3) {
+    /* background: red !important; */
+}
+
+.speakers-box:nth-child(2) {
+    border-bottom: 7px solid skyblue;
+}
+
+.speakers-box:nth-child(3) {
+    border-bottom: 7px solid greenyellow;
+}
+
+.speakers-box:nth-child(4) {
+    border-bottom: 7px solid rebeccapurple;
+}
+
+.speakers-box:nth-child(5) {
+    border-bottom: 7px solid mediumorchid;
+}
+
+.speakers-box:nth-child(6) {
+    border-bottom: 7px solid mediumslateblue;
+}
+
+.speakers-box:nth-child(7) {
+    border-bottom: 7px solid peru;
+}
+
+.speakers-box:nth-child(8) {
+    border-bottom: 7px solid lawngreen;
+}
+
+.speakers-box:nth-child(9) {
+    border-bottom: 7px solid seagreen;
 }
 
 
 
+
+.about-part-1 {
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {width: 35%;}
+
+.about-img img {
+    max-width: 100%;
+}
+
+.about-text {
+    text-align: justify;
+    width: 60%;
+}
+.about-text h1 {
+    padding-bottom: 20px;
+}
+
+.about-part-2 {
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
 
 
 
@@ -404,11 +492,28 @@ img {}
 .contact-part {
     width: 1024px;
     height: 400px;
-    font-size: 60px;
     margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
 }
 
+.massage {
+    font-size: 20px;
+}
+.address-01 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.address-2 nav ul {
+    list-style: none;
+}
+
+.address-2 nav ul li {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
 
 
 
