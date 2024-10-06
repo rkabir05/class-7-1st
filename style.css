@@ -96,8 +96,6 @@ a.home-color {
     text-align: right;
     padding-bottom: 10px;
 }
-.main-part-text h3 {
-}
 
 .main-part-text h1 {
     font-size: 42px;
@@ -120,12 +118,11 @@ a.home-color {
 
 .great-cities {
     width: 1024px;
-    height: 400px;
+    height: 326px;
     margin: auto;
-    padding-bottom: 100px;
     display: flex;
-    padding-top: 70px;
     align-items: center;
+    margin-top: 20px;
 }
 
 .great-cities-img {
@@ -153,6 +150,77 @@ a.home-color {
     margin-bottom: 30px;
 }
 
+.past-speakers {
+    width: 1024px;
+    margin: auto;
+    font-size: 22px;
+    padding-top: 25px;
+    border-bottom: 2px solid;
+}
+
+.past-speakers-box {
+    width: 1024px;
+    height: 355px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.speakers-text :hover {
+    color: #638c1c;
+    transition: all 0.5s;
+}
+
+.spekaers-img {
+    height: 225px;
+    background: beige;
+}
+
+.speakers-text h4 {
+    margin: 15px auto;
+}
+
+.speakers-text h6 {
+    margin-top: 29px;
+}
+
+
+.past-speakers-box-1 {
+    width: 22%;
+    border-bottom: 4px solid #7897;
+}
+
+.past-speakers-box-2 {
+    width: 22%;
+    border-bottom: 4px solid #7897;
+}
+
+.past-speakers-box-3 {
+    width: 22%;
+    border-bottom: 4px solid #7897;
+}
+
+.past-speakers-box-4 {
+    width: 22%;
+    border-bottom: 4px solid #7897;
+}
+
+.past-speakers-box-1 img {
+    max-width: 100%;
+}
+
+.past-speakers-box-2 img {
+    max-width: 100%;
+}
+
+.past-speakers-box-3 img {
+    max-width: 100%;
+}
+
+.past-speakers-box-4 img {
+    max-width: 100%;
+}
 
 .lecture-part {
     width: 1024px;
@@ -165,26 +233,158 @@ a.home-color {
 
 .lecture-part {
     width: 1024px;
-    height: 400px;
-    font-size: 60px;
+    height: auto;
     margin: auto;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lecture-text p:hover {
+    color: black;
+}
+
+.lecture-box-1 {
+    border-bottom: 7px solid #888;
+}
+
+.lecture-text :hover {
+    color: #638c1c;
+    transition: all 0.5s;
+}
+
+.lecture-box-1 {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.lecture-background-box img {
+    max-width: 100%;
+}
+
+img {}
+
+.lecture-background-box img {
+    max-width: 100%;
+    height: 200px;
+}
+
+
+
+.lecture-text h3 {
+    font-size: 22px;
+    font-style: normal;
+}
+
+.lecture-text h2 {
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+.lecture-text p {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.lecture-text {
+    text-align: left;
+}
+
+
+.lecture-box-1 {
+    width: 30%;
+}
+
+.lecture-box-1:nth-child(2) {
+    border-bottom: 7px solid red;
+}
+
+.lecture-box-1:nth-child(3) {
+    border-bottom: 7px solid #3335;
+}
+
+.lecture-box-1:nth-child(4) {
+    border-bottom: 7px solid #9335;
+}
+
+.lecture-box-1:nth-child(4) {
+    border-bottom: 7px solid #7988;
+}
+
+
+.lecture-box-1:nth-child(5) {
+    border-bottom: 7px solid blueviolet;
+}
+
+
+.lecture-box-1:nth-child(6) {
+    border-bottom: 7px solid mediumvioletred;
+}
+
+.lecture-box-1:nth-child(7) {
+    border-bottom: 7px solid skyblue;
+}
+
+.lecture-box-1:nth-child(8) {
+    border-bottom: 7px solid yellowgreen;
+}
+
+.lecture-box-1:nth-child(9) {
+    border-bottom: 7px solid green;
+}
+
+.lecture-box-1:nth-child(10) {
+    border-bottom: 7px solid seagreen;
+}
+
+.lecture-box-1:nth-child(11) {
+    border-bottom: 7px solid slateblue;
+}
+
+.lecture-box-1:nth-child(12) {
+    border-bottom: 7px solid snow`;
 }
 
 
 
 
-.speakers-parts {
+.speakers-part {
     width: 1024px;
-    height: 400px;
-    font-size: 60px;
+    height: auto;
     margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+.speakers-box {
+    width: 30%;
+    margin-top: 30px;
+    border-bottom: 7px solid seagreen;
+}
 
+.speakers-box img {
+    max-width: 100%;
+}
 
+.speakers-text h3 {
+    margin-top: 10px;
+}
 
+.speakers-text h2 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.speakers-background-box {
+    background: radial-gradient(black, transparent);
+}
+
+.speakers-text p {
+    margin-bottom: 20px;
+}
 
 .about-part {
     width: 1024px;
@@ -216,6 +416,9 @@ a.home-color {
 
 
 
+
+
+
 .footer {
     background: #393636;
     width: auto;
@@ -223,6 +426,7 @@ a.home-color {
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 40px;
 }
 
 .footer-text {
